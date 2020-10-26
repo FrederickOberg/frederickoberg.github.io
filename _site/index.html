@@ -11,6 +11,36 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	<style>
+	#home {
+		object-fit: contain;
+		background-color:white;
+	}
+	#poppy {
+		object-fit: contain;
+		background-color:white;
+		
+	}
+
+	@media screen and (max-width: 958px) {
+	  #poppy { 
+    	object-position: 50% 50%;
+ 		}
+	}
+
+	@media screen and (max-width: 737px) {
+	  	#home { 
+    		max-width:370px;
+    		margin: auto;
+  			width: 50%;
+   		}
+ 		#homeimage { 
+    		background-color:white;
+ 		}
+ 		
+ 		
+	}
+	</style>
 	</head>
 	<body class="is-preload">
 
@@ -29,7 +59,7 @@
 							-->
 						</div>
 						<div class="image">
-							<img src="images/banner.jpg" alt="banner.jpg" />
+							<img id="poppy" src="images/poppy_IMG_6029.jpg" alt="California Poppy Flower" />
 						</div>
 					</section>
 
@@ -39,11 +69,11 @@
 							<h2>Graphic Design</h2>
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi id ante sed ex pharetra lacinia sit amet vel massa. Donec facilisis laoreet nulla eu bibendum. Donec ut ex risus. Fusce lorem lectus, pharetra pretium massa et, hendrerit vestibulum odio lorem ipsum dolor sit amet.</p>
 							<ul class="actions stacked">
-								<li><a href="#" class="button">Learn More</a></li>
+								<li><a href="#" class="button">See More</a></li>
 							</ul>
 						</div>
-						<div class="image">
-							<img src="images/spotlight01.jpg" alt="" />
+						<div class="image" id="homeimage">
+							<a href="images/Oberg_Ex02_Final_Poster_1440.jpg" style="border-style:none;"><img id="home" src="images/Oberg_Ex02_Final_Poster_1440.jpg" alt="" /></a>
 						</div>
 					</section>
 
