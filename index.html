@@ -21,6 +21,14 @@
 		background-color:white;
 		
 	}
+	#webdevbanner {
+		object-fit: contain;
+		background-color:white;
+	}
+	#animationbanner {
+		object-fit: contain;
+		background-color:white;
+	}
 
 	@media screen and (max-width: 958px) {
 	  #poppy { 
@@ -37,15 +45,40 @@
  		#homeimage { 
     		background-color:white;
  		}
- 		
- 		
+ 			
 	}
-	#sustainlogo {
+	.gridimages {
+		
 		margin: 0 auto;
 		height:auto;
 		width:300px;
-		
+		border: 2px solid white;	
 	}
+	@media screen and (min-width:978px) and (max-width:1284px){
+		.gridimages {
+			height: auto;
+			width: 225px;
+		}
+	}
+	@media screen and (min-width:670px) and (max-width:914px){
+		.gridimages {
+			height: auto;
+			width: 225px;
+		}
+	}
+	@media screen and (min-width:582px) and (max-width:669px){
+		.gridimages {
+			height: auto;
+			width: 175px;
+		}
+	}
+	@media screen and (min-width:479px) and (max-width:581px){
+		.gridimages {
+			height: auto;
+			width: 125px;
+		}
+	}
+
 	</style>
 	</head>
 	<body class="is-preload">
@@ -60,7 +93,7 @@
 							<p class="major">This is a portfolio of work by Frederick Oberg.</p>
 							<!--
 							<ul class="actions stacked">
-								<li><a href="#first" class="button big wide smooth-scroll-middle">Get Started</a></li>
+								<li><a href="#first" class="button big wide smooth-scroll-middle" target="_blank">Get Started</a></li>
 							</ul>
 							-->
 						</div>
@@ -79,7 +112,8 @@
 							</ul>-->
 						</div>
 						<div class="image" id="homeimage">
-							<a href="images/Oberg_Ex02_Final_Poster_1440.jpg" style="border-style:none;"><img id="home" src="images/Oberg_Ex02_Final_Poster_1440.jpg" alt="" /></a>
+							<a href="images/Oberg_Ex02_Final_Poster_1440.jpg" style="border-style:none;" target="_blank">
+							<img id="home" src="images/Oberg_Ex02_Final_Poster_1440.jpg" alt="" /></a>
 						</div>
 					</section>
 
@@ -87,13 +121,13 @@
 					<section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in">
 						<div class="content">
 							<h2>Web Development</h2>
-							<p>PHP, MySQL, JavaScript, Git, Wordpress, HTML, and CSS are the tools my team and I used to build an interactive project manangement system for the web.</p>
+							<p>PHP, MySQL, JavaScript, Git, Wordpress, HTML, and CSS are some of the tools I've used to build websites for clients and organizations.</p>
 							<!--<ul class="actions stacked">
 								<li><a href="#" class="button">Learn More</a></li>
 							</ul>-->
 						</div>
 						<div id="webdev" class="image">
-							<img src="images/web_dev_coding_banner.png" alt="Colorful image of web code" />
+							<img id="webdevbanner" src="images/web_dev_coding_banner.png" alt="Colorful image of web code" />
 						</div>
 					</section>
 
@@ -101,7 +135,7 @@
 					<section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in">
 						<div class="content">
 							<h2>3D Modeling and Animation</h2>
-							<p>Modeling and animation is cool! I would love the opportunity to gain work experience, for now it's just for fun.</p>
+							<p>Two semesters of 3D animation and modeling was hard work but a lot of fun. Having a lot of experience in graphics and web development I would love the opportunity to do more 3D animation and modeling.</p>
 							<!--
 							<ul class="actions stacked">
 								<li><a href="#" class="button">Learn More</a></li>
@@ -109,49 +143,69 @@
 							-->
 						</div>
 						<div class="image">
-							<a href="images/portfolio/Oberg_SN_Morton_640x512.mov"><img src="images/3d_animation.jpg" alt="" /></a>
+							<a href="images/portfolio/Oberg_SN_Morton_640x512.mov" target="_blank">
+							<img id="animationbanner" src="images/3d_animation.jpg" alt="" /></a>
 						</div>
 					</section>
 				<!-- Six -->
 					<section class="wrapper style1 align-center">
 						<div class="inner">
-							<h2>Ipsum sed consequat</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi id ante sed ex pharetra lacinia sit amet vel massa. Donec facilisis laoreet nulla eu bibendum. Donec ut ex risus. Fusce lorem lectus, pharetra pretium massa et, hendrerit vestibulum odio lorem ipsum.</p>
+							<h2>Portfolio</h2>
+							<p>A hybrid collection of web development & graphic design projects.</p>
 							<div class="items style1 medium onscroll-fade-in">
 								<section>
-									<span class="icon style2 major fa-gem"></span>
-									<h3>Lorem</h3>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
-								</section>
-								<section>
-									<span class="icon solid style2 major fa-save"></span>
-									<h3>Ipsum</h3>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
-								</section>
-								<section>
-									<span class="icon solid style2 major fa-chart-bar"></span>
-									<h3>Dolor</h3>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
-								</section>
-								<section>
-									<span class="icon solid style2 major fa-wifi"></span>
-									<h3>Amet</h3>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
-								</section>
-								<section>
-									<span class="icon solid style2 major fa-cog"></span>
-									<h3>Magna</h3>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
-								</section>
-								<section>
-									<span class="icon style2 major fa-paper-plane"></span>
-									<h3>Tempus</h3>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
+									<span class="icon solid style2 major fas fa-mobile-alt"></span>
+									<h3>Apple / Hogarth WW</h3>
+										<a href="images/portfolio/Apple.com Homepage Screenshot.png" target="_blank"><img class="gridimages" src="images/portfolio/Apple.com Homepage Screenshot.png" /></a>
+									<p>Super excited to have worked on a team of less than 50 Production Artists for the big Apple Fall launches of 2018 & 2019. On the interactive web team we used many tools and scripts to make Apple's merchandise look pixel perfect. Having experience with Git I helped the team trasistion from an older form of version control to a Git system. Furthermore I took the initiative to make several video tutorials designed to quicken the onboarding process for new employees.</p>
 								</section>
 								<section>
 									<span class="icon solid style2 major fa-desktop"></span>
-									<h3>Aliquam</h3>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
+									<h3>Thresher</h3>
+									<a href="images/portfolio/tcp_team_photo.jpg" style="border-style:none;" target="_blank"><img class="gridimages" src="images/portfolio/tcp_team_photo.jpg" /></a>
+									<p>Four years of experience building an interactive responsive project manangement system which included a company/client display, timecard, project page, logistics tracker, accounting page, employee review/skill assessments, human resources page and more. Every page could be linked through a relational MySQL database. I created custom reports to show the company's health and to help management make decisions. Other responsibilities included graphic design and marketing.</p>
+								</section>
+								<section id="ssvsection">
+									<span class="icon solid style2 major fa-leaf"></span>
+									<h3>Sustainable Silicon Valley</h3>
+										<img class="gridimages" src="images/gallery/fulls/SustainableSiliconValleyMotionLogo3.gif" width="350px" loop=infinite /> 									
+									<p>Motion logo for Sustainable Silicon Valley. As a volunteer I managed a team of four designers for web development and graphics. We used Confluence CMS for updating and creating content for web. I do miss the good people and positive work that SSV continues to do.</p>
+								</section>
+								<section>
+									<span class="icon style2 major fa-gem"></span>
+									<h3>John Saar Properties</h3>
+									<img class="gridimages" src="images/portfolio/jsaar_sm.jpg" /> 					
+									<p>Designed a 20 page photo brochure for the Concorso de Elegance which showcased amazing estates and castles in Big Sur. I primarily used Photoshop for processing photography, and InDesign for the layout.</p>
+								</section>
+								<section>
+									<span class="icon solid style2 major fas fa-cogs"></span>
+									<h3>Start Up Human Resources</h3>
+									<a href="https://www.startuphumanresources.com" style="border-style:none;" target="_blank"><img class="gridimages" src="images/portfolio/suhr.png" /></a>
+									<p>As a Freelancer I helped a client with an old website. I created a responsive Wordpress site and added custom php code to create an interactive testimonial section. The client liked it so much I received a bonus.</p>
+								</section>
+								<section>
+									<span class="icon solid style2 major far fa-snowflake"></span>
+									<h3>The Little Match Girl Christmas Play</h3>
+									<a href="images/portfolio/Lil_Mat_Grl_Poster_1_3.jpg" style="border-style:none;" style="border-style:none;" target="_blank"><img class="gridimages" src="images/portfolio/Lil_Mat_Grl_Poster_1_3.jpg" /></a>
+									<p>Poster design for a local church Christmas play. As a volunteer I also did photography, videography, and played the antagonist to a sold out audience.</p>
+								</section>
+								<section>
+									<span class="icon solid style2 major fas fa-paint-brush"></span>
+									<h3>Art Show Poster</h3>
+									<a href="images/portfolio/raj_scholar_poster_1.jpg" style="border-style:none;" target="_blank"><img class="gridimages" src="images/portfolio/raj_scholar_poster_1.jpg" /></a>
+									<p>Volunteered to create a poster for a good cause. The Robert James Arnold Scholarship helps local Marina High School students.</p>
+								</section>
+								<section>
+									<span class="icon solid style2 major fa-paper-plane"></span>
+									<h3>Puzzle Perks</h3>
+									<img class="gridimages" src="images/portfolio/puzzle_perks_net.png" />
+									<p>Participated in California State Monterey Bay Start Up Weekend. I helped the team win 3rd place by creating a logo and setting up a CMS website.</p>
+								</section>
+								<section>
+									<span class="icon solid style2 major fas fa-bullhorn"></span>
+									<h3>The Dream Team Campaign</h3>
+									<a href="images/portfolio/A_S_poster18x24_rough_10.jpg" style="border-style:none;" target="_blank"><img class="gridimages" src="images/portfolio/A_S_poster18x24_rough_10.jpg" /></a>
+									<p>Volunteered to run the marketing campaign for this group of students. Creating posters, flyers, and buttons. I did all of the photography and designs. All 19 won their election!</p>
 								</section>
 								<section>
 									<span class="icon solid style2 major fa-sync-alt"></span>
@@ -164,20 +218,9 @@
 									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
 								</section>
 								<section>
-									<span class="icon solid style2 major fa-bolt"></span>
-									<h3>Turpis</h3>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
-								</section>
-								<section>
 									<span class="icon solid style2 major fa-envelope"></span>
 									<h3>Ultrices</h3>
 									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
-								</section>
-								<section>
-									<span class="icon solid style2 major fa-leaf"></span>
-									<h3>Sustainable Silicon Valley</h3>
-										<img id="sustainlogo" src="images/gallery/fulls/SustainableSiliconValleyMotionLogo3.gif" width="350px" loop=infinite /> 									
-									<p>Motion logo for Sustainable Silicon Valley. As a volunteer I managed a team of four designers for web development and graphics.</p>
 								</section>
 							</div>
 						</div>
@@ -219,7 +262,7 @@
 								<li><a href="#" class="icon brands style2 fa-facebook-f"><span class="label">Facebook</span></a></li>
 								<li><a href="#" class="icon brands style2 fa-instagram"><span class="label">Instagram</span></a></li>
 								-->
-								<li><a href="https://www.linkedin.com/in/fredoberg/" class="icon brands style2 fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+								<li><a href="https://www.linkedin.com/in/fredoberg/" class="icon brands style2 fa-linkedin-in" target="_blank"><span class="label">LinkedIn</span></a></li>
 								<li><a href="mailto:fredsjobquest@gmail.com" class="icon style2 fa-envelope"><span class="label">Email</span></a></li>
 							</ul>
 							<!--<p>&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>-->
